@@ -1,33 +1,4 @@
 
-Start
-
-Define function average for integers (array)
-   Initialize sum to 0
-   For each number in the array, add it to sum
-   Return sum divided by the length of the array
-
-Define function average for doubles (array)
-   Initialize sum to 0
-   For each number in the array, add it to sum
-   Return sum divided by the length of the array
-
-Define main function
-   Create a scanner object for user input
-   Create an array of doubles with length 10
-   Prompt the user to enter ten numerical values, one at a time
-   For each of the ten values:
-      Check if the input is a double
-         If not, display an error message and discard the invalid input
-      Store the valid input in the array
-   Calculate the average of the entered numbers using the average function for doubles
-   Display the calculated average to the user
-
-End
-
-
-------------------------------------------
-
-
 import java.util.*;
 
 public class AverageArray {
